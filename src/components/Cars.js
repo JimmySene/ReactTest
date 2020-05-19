@@ -7,11 +7,12 @@ const Car = (props) => {
         return(
             <div style={{'backgroundColor':'pink', 'width':'400px', 'padding':'20px', 'margin':'5px auto'}}>
                 <p>Marque : {props.brand}</p>
+                <p>Age : {props.year}</p>
                 <p>Couleur : {color}</p>
             </div>
         );
     } else{
-        return <div></div>
+        return null;
     }
 }
 
