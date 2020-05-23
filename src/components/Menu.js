@@ -17,6 +17,9 @@ const Menu = () => {
                     <NavLink className="nav-link" to="/voitures">Catalogue de voitures</NavLink>
                 </li>
                 <li className="nav-item">
+                    <NavLink className="nav-link" to="/utilisateurs">Utilisateurs</NavLink>
+                </li>
+                <li className="nav-item">
                     <NavLink className="nav-link" to="/formulaire">Formulaire</NavLink>
                 </li>
                 </ul>
